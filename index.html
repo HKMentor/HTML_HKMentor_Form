@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HK-HTML_Form</title>
+    <style>
+      body {
+        background-color: #f4f4f9;
+      }
+      h2 {
+        text-align: center;
+        font-size: 1.5em;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      label,
+      p {
+        font-size: 1.1em;
+        color: #333333;
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="date"],
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 10px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #080bdc;
+        color: white;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align: center; font-size: 1.5em">
+      <b><u>HOORIA KHAN : IP-326602</u></b>
+    </h3>
+    <form
+      style="
+        border: 4px solid;
+        background-color: bisque;
+        padding: 20px;
+        width: 300px;
+        margin: auto;
+      "
+    >
+      <h2>HKMentor_Registration-Form</h2>
+
+      <!-- <input type="file" name="profile pic">
+      <input type="submit" value="upload"><br><br> -->
+      <label for="fullName">Full Name :</label>
+      <input type="text" name="fullName" placeholder="apka naam?" required />
+      <br /><br />
+      <label for="age">Age :</label>
+      <input type="number" name="age" required />
+      <br /><br />
+      <label for="contact">Contact :</label>
+      <input type="text" name="contact" required />
+      <br />
+      <p>Which city do you live in?</p>
+      <select name="city" id="city">
+        <option value="select" selected>Select</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Faislabad">Faislabad</option>
+        <option value="Multan">Multan</option>
+        <option value="Quetta">Quetta</option>
+        <option value="Peshawar">Peshawar</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Rahim Yar Khan">Rahim Yar Khan</option>
+      </select>
+      <br /><br />
+
+      <p>What is your gender?</p>
+      <input type="radio" name="name" value="m" />Male
+      <input type="radio" name="name" value="f" />FeMale <br /><br />
+
+      <label for="qualification">What is your highest qualification?</label
+      ><br /><br />
+
+      <input type="radio" id="matric" name="qualification" value="matric" />
+      <label for="matric">Matriculation</label><br />
+
+      <input
+        type="radio"
+        id="intermediate"
+        name="qualification"
+        value="intermediate"
+      />
+      <label for="intermediate">Intermediate</label><br />
+
+      <input
+        type="radio"
+        id="bachelors"
+        name="qualification"
+        value="bachelors"
+      />
+      <label for="bachelors">Bachelor's Degree</label><br />
+
+      <input type="radio" id="masters" name="qualification" value="masters" />
+      <label for="masters">Master's Degree</label><br />
+
+      <input type="radio" id="phd" name="qualification" value="phd" />
+      <label for="phd">PhD</label><br /><br />
+
+      <label for="date">Select a date:</label><br /><br />
+      <input type="date" id="date" name="date" value="2024-10-16" /><br /><br />
+
+      <label for="course">Select the courses you're interested in:</label
+      ><br /><br />
+
+      <input
+        type="checkbox"
+        id="webDev"
+        name="course"
+        value="Web Development"
+      />
+      <label for="webDev"> Web Development</label><br />
+
+      <input
+        type="checkbox"
+        id="graphicDesign"
+        name="course"
+        value="Graphic Design"
+      />
+      <label for="graphicDesign"> Graphic Design</label><br />
+
+      <input
+        type="checkbox"
+        id="digitalMarketing"
+        name="course"
+        value="Digital Marketing"
+      />
+      <label for="digitalMarketing"> Digital Marketing</label><br />
+
+      <input type="checkbox" id="seo" name="course" value="SEO" />
+      <label for="seo"> SEO</label><br />
+      <br />
+      <button type="submit">Submit Your Form</button><br /><br />
+      <a
+        href="https://www.instagram.com/hkessentials195?igsh=MWtndzUwbDJ4MTFlag=="
+        >HKEssentials195</a
+      >
+      &nbsp; &nbsp;
+      <!-- space between links -->
+      <a
+        href="https://www.instagram.com/hooria_codehub/profilecard/?igsh=ZWhvMmVucm5ueHBl"
+        >Hooria_Codehub</a
+      >
+    </form>
+  </body>
+</html>
